@@ -1,0 +1,30 @@
+
+.billing_form .form_group input{
+    border: 1px solid var(--card-bg-02);
+}
+
+.ckeckout_cart{
+    padding: 20px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.ckeckout_cart h6,h4{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.ckeckout_cart h6{
+    margin-bottom: 20px;
+}
+
+.ckeckout_cart h4{
+    border-top: 1px solid rgba(221, 221, 221, 0.253);
+    padding-top: 20px;
+}
+
+.auth_btn{
+    background: #fff;
+    color: var(--primary-color);
+}
