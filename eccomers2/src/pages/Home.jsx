@@ -24,7 +24,7 @@ const Home = () => {
   const [popularProducts,setPopularProducts] =useState([])
   const year=new Date().getFullYear();
 
-
+  
 
   useEffect(() => {
     const filteredTrendingProducts =products.filter(item => item.category === 'chair');

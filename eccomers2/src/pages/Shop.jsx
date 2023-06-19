@@ -37,28 +37,29 @@ const Shop = () => {
 //  };
 
 
-  const handleFilter =e=>{
+  const handleFilter=e=>{
     const filterValue =e.target.value
       if(filterValue === 'sofa'){
         const filteredProducts =products.filter(item =>item.category ==='sofa')
-         setProductsData(filteredProducts)
+        setProductsData(filteredProducts) 
       }
       if(filterValue === 'mobile'){
         const filteredProducts =products.filter(item =>item.category ==='mobile')
-         setProductsData(filteredProducts)
+        setProductsData(filteredProducts) 
       }
       if(filterValue === 'chair'){
         const filteredProducts =products.filter(item =>item.category ==='chair')
-         setProductsData(filteredProducts)
+        setProductsData(filteredProducts) 
       }
       if(filterValue === 'watch'){
         const filteredProducts =products.filter(item =>item.category ==='watch')
-         setProductsData(filteredProducts)
+        setProductsData(filteredProducts) 
       }
       if(filterValue === 'wireless'){
         const filteredProducts =products.filter(item =>item.category ==='wireless')
-         setProductsData(filteredProducts)
+        setProductsData(filteredProducts) 
       }
+      return productsData
   }
 
   // const handleSearch =e => {
